@@ -1,0 +1,14 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 191 ciObject found
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Comparable compareTo (Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/lang/String compareTo (Ljava/lang/String;)I 1033 18305 1086 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 185 1 41 0 0
+ciMethod java/lang/Class getName0 ()Ljava/lang/String; 129 1 16 0 -1
+ciMethod java/lang/Math min (II)I 3081 1 27621 0 -1
+ciMethod java/util/TreeMap get (Ljava/lang/Object;)Ljava/lang/Object; 4097 1 29061 0 288
+ciMethod java/util/TreeMap getEntry (Ljava/lang/Object;)Ljava/util/TreeMap$Entry; 2121 4985 4514 0 288
+ciMethod java/util/TreeMap getEntryUsingComparator (Ljava/lang/Object;)Ljava/util/TreeMap$Entry; 0 0 1 0 -1
+ciMethodData java/util/TreeMap getEntry (Ljava/lang/Object;)Ljava/util/TreeMap$Entry; 2 26942 orig 264 136 112 208 113 0 0 0 0 0 132 241 19 0 0 0 0 216 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111 2 0 0 201 132 0 0 121 54 3 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 15 0 2 0 0 0 136 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 49 0x40007 0x1099 0x50 0x0 0x90005 0x0 0x0 0x0 0x0 0x0 0xe0007 0x1099 0x30 0x0 0x150002 0x0 0x1a0004 0x0 0x15fc5610 0x322 0x17bdc080 0x79f 0x240007 0xbf5 0xd8 0x6b73 0x2c0005 0x1aa7 0x17bdc080 0x4de6 0x15fc5610 0x2e8 0x350007 0x3e39 0x38 0x2d3d 0x3d0003 0x2d3d 0x50 0x420007 0x4a6 0x38 0x3993 0x4a0003 0x3993 0x18 0x4f0003 0x66cf 0xffffffffffffff40 oops 4
